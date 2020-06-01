@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pr&eacute;sentation</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="presentation.css">
+</head>
+<body>
+	<div id="tt">
+	<!--<a href="epicschool.html"><img src="images/home.png" height="50px" width="50px"></a>-->
+	<div id="titre">
+		<h2><a href="epicschool.html">EpicSchool</a></h2>
+	</div>
+	<div class="glo">
+		<ul>
+			<li id="his"><a href="his.html" >Historique</a></li>
+			<li id="mem"><a href="mem.html" >Les membres</a></li>
+			<li id="pb"><a href="pb.html" >Problèmes rencontrés</a></li>
+			<li id="j"><a href="j.html"  >Le jeu</a></li>
+		</ul>
+	</div>
+</div>
+	<br /><br />
+	<div class="text">
+				
+		<div id="jj" style="display:none">
+			<p> Comme expliqué dans le cahier des charges, notre projet est un jeu de gestion. C’est un jeu extrêmement simple et les mécaniques du jeu étant très simple, un schéma peut très facilement permettre la compréhension des règles du jeu.</p><img src="images/principe.jpg"><br />
+				<p>Le but du jeu est assez simple ; devenir la meilleure école de France !<br />A la fin de chaque année (15 minutes), un classement est établi, classement qui
+prendra en compte plusieurs paramètres (des compteurs avec chacun un nombre
+de points pouvant aller de 0 à 1000) : un compteur de niveau global de l’école,
+un compteur de satisfaction des élèves, un compteur de visibilité de l’école ainsi
+qu’un compteur environnemental. Ces compteurs pourront être influencer par
+plusieurs facteurs. Tout d’abord les achats de tel ou tel objet par le joueur (par
+exemple acheter une machine à café augmentera le compteur de satisfaction
+des élèves). Ensuite un système de choix pour le joueur sera mis en place (par
+exemple il sera demandé au joueur s’il veut participer à des journées portes
+ouvertes, ce qui augmentera son compteur visibilité d’école). Enfin un système
+d’évènement aléatoire sera mis en place (par exemple des grèves de transports
+ou des manifestations pourront apparaître ce qui fera baisser le niveau global
+des élèves).<br />Le jeu pourra se jouer seul ou en multijoueur (jusqu'à 4). Le but du jeu sera le même et les mécaniques seront inchangées</p>
+	</div>
+
+
+<script type="text/javascript">
+
+function toggle(anId)
+{
+	node = document.getElementById(anId);
+	if (node.style.visibility=="hidden")
+	{
+		// Contenu caché, le montrer
+		node.style.visibility = "visible";
+		node.style.height = "auto";			// Optionnel rétablir la hauteur
+	}
+	else
+	{
+		// Contenu visible, le cacher
+		node.style.visibility = "hidden";
+		node.style.height = "0";			// Optionnel libérer l'espace
+	}
+}
+
+</script>	
+</body>
+</html>
